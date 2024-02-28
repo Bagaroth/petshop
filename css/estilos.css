@@ -10,6 +10,8 @@ a{
 
 h2{
     font-size: 3rem !important;
+    color: rgb(128, 0, 248) !important;
+    margin: 5vh 5vw 5vh 0 !important;
 }
 
 p{
@@ -25,6 +27,8 @@ button{
     border-radius: 10px !important;
     padding: 1vh;
     font-weight: 500;
+    width: 15vw;
+    margin-top: 5vh !important;
 }
 
 header{
@@ -37,13 +41,12 @@ header #background-header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: absolute;
-    height: 1000px;
 }
 
 #conteudo-principal-header{
     display: flex;
-    margin: 15vh 55vw 0 17vw;
+    margin: 0 55vw 0 17vw;
+    padding-top: 15vh;
     flex-direction: column;
     position: relative;
 }
@@ -76,16 +79,6 @@ nav span{
     color: white;
     margin-right: -30px !important;
     font-size: 1rem !important;
-}
-
-#conteudo-principal-header h2{
-    color: rgb(128, 0, 248);
-    margin: 5vh 5vw 5vh 0;
-}
-
-#conteudo-principal-header button{
-    width: 15vw;
-    margin-top: 5vh;
 }
 
 header #cao-gato{
@@ -134,4 +127,98 @@ header #cao-gato{
 
 #background-header #content-3 h3{
     margin-bottom: 10vh;
+}
+
+.secao{
+    display: flex;
+}
+
+.secao .content-secao {
+    margin: 0 55vw 0 17vw;
+}
+
+.secao .content-secao-02 {
+    margin: 0 15vw 0 48vw;
+}
+
+#background-foto-secao01{
+    height: 45vh;
+    width: 30vw;
+    position: absolute;
+    right: 0;
+    margin: 5% 5% 0 0;
+    background-image: linear-gradient(to bottom, #ff7300 5%, #f69400 40%);
+}
+
+#background-foto-secao01 img{
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+    height: inherit;
+}
+
+#background-foto-secao02{
+    height: 45vh;
+    width: 30vw;
+    position: absolute;
+    left: 0;
+    margin: 0 0 5% 5%;
+    background-image: linear-gradient(to bottom, rgb(47, 0, 90) 5%, rgb(128,0 ,248) 40%);
+}
+
+#background-foto-secao02 img{
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    height: inherit;
+}
+
+.secao-02{
+    padding-top: 10vh;
+}
+
+.secao-02 h2{
+    margin-top: 1vh !important;
+}
+
+.secao-02 span{
+    color: #f69400;
+    font-weight: bolder;
+}
+
+.secao-03{
+    margin-top: 15vh;
+    background-image: url(../imagens/background-header-orange.png);
+    background-size: cover;
+    position: relative;
+    height: 55vh;
+}
+
+.secao-03 div{
+    color: white;
+    background-color: rgb(128, 0, 248);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    margin: 5vh 55vw 5vh 20vw;
+    padding: 3vh;
+}
+
+.secao-03 img{
+    height: 65vh;
+    position: absolute;
+    top: -10vh;
+    right: 0;
+}
+
+.secao-03 h3{
+    margin: 4vh 0;
+}
+
+.secao-03 p{
+    font-size: 1.15rem;
+}
+
+.secao-04 .content-secao{
+    margin-right: 50vw !important;
 }
