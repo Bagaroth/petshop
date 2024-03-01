@@ -51,7 +51,7 @@ header #background-header{
     position: relative;
 }
 
-#conteudo-principal-header img{
+.logo{
     height: 12.5vh;
     width: 6vw;
 }
@@ -75,7 +75,13 @@ nav a{
     cursor: pointer;
 }
 
-nav span{
+footer a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span{
     color: white;
     margin-right: -30px !important;
     font-size: 1rem !important;
@@ -221,4 +227,151 @@ header #cao-gato{
 
 .secao-04 .content-secao{
     margin-right: 50vw !important;
+}
+
+.roxo{
+    height: 45vh;
+    width: 30vw;
+    position: absolute;
+    right: 0;
+    margin: 5% 5%  0 0;
+    background-image: linear-gradient(to bottom, rgb(47, 0, 90) 5%, rgb(128,0 ,248) 40%);
+}
+
+.roxo img{
+    position: absolute;
+    left: -5vw;
+    top: 5vh;
+    height: 60vh;
+}
+
+.secao-05{
+    margin-top: 15vh;
+    color: white;
+}
+
+.secao-05 #content-5{
+    background-image: linear-gradient(to bottom, #ff7300 5%, #f69400 40%);
+    border-radius: 15px;
+    padding: 3vh;
+    margin: auto 17vw;
+}
+
+#content-5{
+    display: flex;
+}
+
+#content-5 img{
+    height: 40vh;
+    border-radius: 10px;
+    margin:auto 3vh;
+    margin-right: 0;
+}
+
+.secao-05 p{
+    font-size: 1.15rem;
+}
+
+.secao-05 h3{
+    margin: 4vh 0;
+}
+
+#content-5 div{
+    margin-right: 3vw;
+}
+
+.secao-06{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secao-06 #content-6 img{
+    height: 20vh;
+    width: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.secao-06 #content-6 div{
+    box-shadow: 5px 5px 10px gray;
+    width: 16vw;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.secao-06 #content-6 p{
+    font-size: 1.15rem;
+    text-align: center;
+    padding: 1vh;
+}
+
+.secao-06  #content-6 h4{
+    color: rgb(128, 0, 248);
+    margin: 2vh 0;
+}
+
+.secao-06 #content-6 div button{
+    background-color: transparent;
+    color: #ff7300;
+    margin: 0 !important;
+    margin-bottom: 2vh !important;
+}
+
+.secao-06 #content-6{
+    gap: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(128, 0, 248);
+    color: white;
+    margin-top: 15vh;
+}
+
+footer #copyright{
+    background-color: #f69400;
+    color: rgb(128, 0, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #copyright p{
+    padding: 2vh;
+    margin: 0;
+}
+
+footer #content-footer{
+    display: flex;
+    justify-content: center;
+    padding: 4vh 0;
+    gap: 4vw;
+}
+
+footer #content-footer .div-footer{
+    display: flex;
+    flex-direction: column;    
+}
+
+footer h4{
+    font-weight: bolder;
+    margin-bottom: 1vh;
+}
+
+footer #content-footer .div-footer a{
+    font-size: 1rem !important;
+}
+
+footer #content-footer .div-footer p{
+    font-size: 1rem !important;
+    margin: 0;
+    font-weight: 400;
+}
+
+footer #whatsapp{
+    position: fixed;
+    bottom: 3vh;
+    right: 2vw;
+    height: 64px;
 }
